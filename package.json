@@ -1,0 +1,31 @@
+{
+  "name": "kde.linux.org.tw",
+  "version": "0.1.0",
+  "description": "KDE Taiwan website",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "marked": "~0.2.9",
+    "connect": "~2.8.4"
+  },
+  "peerDependencies": {
+    "LiveScript": "1.1.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jade": "~0.7.0",
+    "grunt-contrib-less": "~0.6.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt": "~0.4.1",
+    "grunt-shell": "~0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "../kde.git"
+  },
+  "keywords": [
+    "g0v"
+  ],
+  "license": "GPLv2"
+}

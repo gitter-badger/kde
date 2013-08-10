@@ -1,0 +1,66 @@
+!!!5
+html(ng-app="kde.linux.org.tw",ng-cloak)
+    head
+        meta(charset="utf-8")
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
+        link(rel="SHORTCUT ICON",href="./kde.ico")
+        title
+            block title
+        link(rel="stylesheet", type="text/css", href="./build/deploy.min.css")
+        script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+
+    body
+        #header
+            #header_inner_container
+                #logo
+                    a(href="/index.html"): img(src="./imgs/kde_taiwan.png", width=150)
+                div.clearfix
+
+        #nav_bar
+            #nav_main
+                #nav_index
+                    a(href="/") 
+                        span.nav_tab 首頁
+                #nav_about
+                    a(href="/about.html") 
+                        span.nav_tab 關於我們
+                #nav_join
+                    a(href="/join.html") 
+                        span.nav_tab 加入我們
+                #nav_news
+                    a(href="/news.html") 
+                        span.nav_tab 最新消息
+                div.clearfix
+
+        #container
+
+            block content
+
+    #footer.hidden-phone
+        #sitemap-panel
+            .map-entry
+                .map-caption: | KDE Taiwan
+                .map-item: a(href="/about.html") 關於我們
+                .map-item: a(href="https://plus.google.com/communities/114095232656344072201",rel="publisher") G+ 社群
+                .map-item: a(href="/sitemap.html") 網站地圖
+            .map-entry
+                .map-caption: 資訊
+                .map-item: a(href="http://mote.debian.tw") 摩托學園
+                .map-item: a(href="http://moto.debian.tw/viewforum.php?f=39&sid=57ede52917997654b9de2d6fe3f67993") 討論區
+                .map-item: a(href="https://groups.google.com/forum/#!forum/kde-tw") kde-tw 論壇
+            .map-entry
+                .map-caption: 活動
+                .map-item: a(href="http://www.flickr.com/photos/acelan/tags/kdetw/") 活動照片
+            .map-entry
+                .map-caption: 指南
+                .map-item: a(href="/join.html") 參與我們
+                .map-item: a(href="https://github.com/KDE-Taiwan/kde/issues") 網站意見回報
+
+
+        #social_plugins
+
+            div.footer-brand
+                | KDE Taiwan 2013 </br>
+                img(src="./imgs/kde-banner.png", width=100)
+
+
