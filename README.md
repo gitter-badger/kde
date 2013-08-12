@@ -12,8 +12,8 @@ KDE Taiwan website
 ### 安裝 jekyll ###
     sudo gem install jekyll
 
-### 建立網站 template ###
-    jekyll new
+### 建立網站 template(不需要再做這一步) ###
+    <del>jekyll new</del>
 
 ### 編輯 package.json 下載需要的 module ###
     npm install
