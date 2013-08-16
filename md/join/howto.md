@@ -11,6 +11,12 @@ KDE Taiwan 網站程式碼存放在 [github](https://github.com/KDE-Taiwan/kde) 
 
 <br />
 ----
+### KDE 中文星球
+
+想要將 blog 中關於 KDE 相關的內容加入 KDE 中文星球，請參考 [KDE planet](http://zh.planetkde.org/) 上方的「加入您的部落格」的說明，然後將所需要的資料寄到【[kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)】。馬哥就會幫你加入了。
+
+<br />
+----
 ### ezgo 教育專案
 
 <br />
