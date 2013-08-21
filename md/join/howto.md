@@ -15,7 +15,7 @@ KDE 正體中文翻譯目前由馬哥 <franklin at goodhorse dot idv dot tw> 維
 ----
 ### KDE 中文星球
 
-想要將您的 blog 中關於 KDE 相關的內容加入 KDE 中文星球，請準備
+想要將您的 blog 中與 KDE 相關的內容加入 KDE 中文星球，請準備
 
   * 相片（或圖示），必須是 80x80 以內的 png 檔
   * blog 名稱
