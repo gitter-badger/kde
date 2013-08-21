@@ -3,7 +3,7 @@
 
 #### github
 * 網址：http://github.com
-* 說明：很多人都有這樣的煩惱：程式碼修過好幾次以後，早已認不得最新的是哪個版本，最舊的是哪個版本。為了解決這個問題，Linus Torvalds 開發了 git 作為管理程式碼的工具。git 是一個很好用的分散式程式碼版本管理工具。而 github 則是使用 git 的社交網站。每個人都可以有自己的程式碼，你可以在上面複製，或是協助修改別人的程式碼。
+* 說明：很多人都有這樣的煩惱：程式碼修過好幾次以後，早已認不得最新的是哪個版本，最舊的是哪個版本。為了解決這個問題，Linus Torvalds 開發了 git 作為管理程式碼的工具。git 是一個很好用的分散式程式碼版本管理工具。而 github 則是使用 git 的社交網站。每個人都可以有自己的程式碼，您可以在上面複製，或是協助修改別人的程式碼。
 * 相關連結：
 * http://www.slideshare.net/littlebtc/git-5528339
 * http://marklodato.github.com/visual-git-guide/index-en.html
