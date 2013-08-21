@@ -11,3 +11,5 @@
 * [Choqok Plurk Plugin 原始程式碼](https://github.com/acelan/choqok-plurk)
 * Hackpad - https://kde_taiwan.hackpad.com/fm4QvepMkM7#Choqok-Plurk-Plugin
 
+### KDE 正體中文新聞岸
+* [KDE 正體中文新聞站](http://kdetw.blogspot.tw/)
