@@ -143,6 +143,47 @@ module.exports = function(grunt) {
     },
 
 
+    // watch js and css for fire up automatically
+
+    watch: {
+
+      less: {
+        files: 'less/*.less',
+        tasks: 'lessCopy'
+      },
+
+      livescript: {
+        files: [
+          // capture all except css - add your own
+          'app/*.ls'
+          ],
+        tasks: 'shell:livescript'
+      },
+      jekyllSources: {
+        files: [
+          // capture all except css - add your own
+          '*.md', '*.yml', '_layouts/**', '_plugins/**', 'communique/**', 'howto/**', 'imgs/**', 'javascript/**'
+
+          ],
+        tasks: 'shell:jekyll'
+      },
+
+      buildJade: {
+        files: [ 'jade-pages/*.jade', 'archives_jade/*.jade', 'join_jade/*.jade', 'news_jade/*.jade', 'md/**' ],
+        tasks: ['jade:pages', 'jade:archives_pages', 'jade:join_pages', 'jade:news_pages']
+      }
+    },
+
+    shell: {
+        jekyll: {
+            command: 'rm -rf _site/*; jekyll build',
+            stdout: true
+        },
+        livescript: {
+            command: 'lsc -bco javascript app',
+            stdout: true
+        }
+    }
 
 
   });
@@ -152,13 +193,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
   grunt.registerTask('lessCopy', ['concat', 'less', 'cssmin', 'clean']);
-  grunt.registerTask('default', ['jade', 'lessCopy']);
+  grunt.registerTask('default', ['jade', 'lessCopy', 'watch']);
 
 
 };
