@@ -9,7 +9,7 @@ KDE Taiwan 網站程式碼存放在 [github](https://github.com/KDE-Taiwan/kde) 
 ----
 ### KDE 正體中文翻譯
 
-KDE 正體中文翻譯目前由馬哥 <franklin at goodhorse dot idv dot tw> 維護。若您有興趣歡迎聯絡。我們也會持續尋求能讓更多人一起參與的方式。
+KDE 正體中文翻譯目前由馬哥 <franklin at goodhorse dot idv dot tw> 維護。若您有興趣歡迎聯絡。我們也會持續尋求能讓更多人一起參與的方式。若您有任何想法歡迎提出。
 
 <br />
 ----
