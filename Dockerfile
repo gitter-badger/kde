@@ -9,6 +9,7 @@ RUN npm install -g grunt-cli
 RUN gem install rdoc
 RUN gem install jekyll
 ADD . /src
+RUN cp src/Gruntfile_docker.js src/Gruntfile.js
 RUN cd /src;npm install
 RUN cd /src;grunt
 EXPOSE  4000
