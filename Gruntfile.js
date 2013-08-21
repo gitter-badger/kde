@@ -159,21 +159,19 @@ module.exports = function(grunt) {
           ],
         tasks: 'shell:livescript'
       },
+      jekyllSources: {
+        files: [
+          // capture all except css - add your own
+          '*.md', '*.yml', '_layouts/**', '_plugins/**', 'communique/**', 'howto/**', 'imgs/**', 'javascript/**'
+
+          ],
+        tasks: 'shell:jekyll'
+      },
 
       buildJade: {
         files: [ 'jade-pages/*.jade', 'archives_jade/*.jade', 'join_jade/*.jade', 'news_jade/*.jade', 'md/**' ],
         tasks: ['jade:pages', 'jade:archives_pages', 'jade:join_pages', 'jade:news_pages']
-      },
-
-      jekyllSources: {
-        files: [
-          // capture all except css - add your own
-          'md/**', '*.yml', '_layouts/**', '_plugins/**', 'communique/**', 'howto/**', 'imgs/**', 'javascript/**'
-
-          ],
-        tasks: 'shell:jekyll'
       }
-
     },
 
     shell: {
