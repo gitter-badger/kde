@@ -170,7 +170,7 @@ module.exports = function(grunt) {
 
       buildJade: {
         files: [ 'jade-pages/*.jade', 'archives_jade/*.jade', 'join_jade/*.jade', 'news_jade/*.jade', 'md/**' ],
-        tasks: ['jade:pages', 'jade:archives_pages', 'jade:join_pages', 'jade:news_pages']
+        tasks: ['jade:pages', 'jade:archives_pages', 'jade:join_pages', 'jade:news_pages', 'shell:jekyll']
       }
     },
 
