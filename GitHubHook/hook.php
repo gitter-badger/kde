@@ -8,10 +8,10 @@ $hook = new GitHubHook;
 $hook->enableDebug();
 
 // Adding `stage` branch to deploy for `staging` to path `/var/www/testhook/stage`
-$hook->addBranch('stage', 'staging', '/var/www/stage');
+$hook->addBranch('stage', 'staging', '/opt/KDE-Taiwan/kde/stage');
 
 // Adding `prod` branch to deploy for `production` to path `/var/www/testhook/prod` limiting to only `user@gmail.com`
-$hook->addBranch('prod', 'production', '/var/www/prod', array('user@gmail.com'));
+$hook->addBranch('prod', 'production', '/opt/KDE-Taiwan/kde/prod', array('franklin@goodhorse.idv.tw'));
 
 // Deploy the commits
 $hook->deploy();
