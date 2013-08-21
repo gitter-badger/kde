@@ -14,9 +14,11 @@ KDE Taiwan 網站程式碼存放在 [github](https://github.com/KDE-Taiwan/kde) 
 ### KDE 中文星球
 
 想要將 blog 中關於 KDE 相關的內容加入 KDE 中文星球，請準備
- * 相片（或圖示）80x80 png 檔
- * blog 名稱
- * feed URL
+
+  * 相片（或圖示），必須是 80x80 以內的 png 檔
+  * blog 名稱
+  * feed URL
+
 寄到【[kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)】給馬哥，馬哥就會幫你加入了。
 
 <br />
