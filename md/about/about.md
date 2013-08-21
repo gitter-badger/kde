@@ -9,7 +9,7 @@ KDE 團隊的產品包括一個用於 Linux 與 UNIX 平台上的現代化桌面
 
 ### KDE Taiwan
 
-KDE Taiwan 網站，由 KDE@Taiwan 社群建立，目的是建立一個提供各種 KDE 資源指引的正體中文網站。本站大部份的程式碼來自於 [g0v.tw](http://g0v.tw)，謹此誌謝。
+KDE Taiwan 網站，由 KDE@Taiwan 社群建立，目的是建立一個提供各種 KDE 資源連結、新聞與活動資訊的正體中文網站。本站大部份的程式碼來自於 [g0v.tw](http://g0v.tw)，謹此誌謝。
 
 
 <br/>
