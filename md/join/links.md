@@ -7,5 +7,6 @@
  * [irc 動態分析](http://)：越遠越熱鬧噢。
 * [kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)：用 email 溝通還是比較好保存搜尋。
 * [KDE 討論區](http://moto.debian.tw/viewforum.php?f=39&sid=57ede52917997654b9de2d6fe3f67993)：要考古的可以來看看
+* [KDE 正體中文新聞站](http://kdetw.blogspot.com)：KDE 的新聞。有一陣子沒更新了，需要大家一起協助。
 
 
