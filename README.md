@@ -4,7 +4,7 @@ KDE Taiwan website
 第一次執行時
 ------------
 ### 安裝所需套件 ###
-    sudo apt-add-repository ppa:chris-lea/node.js
+    sudo add-apt-repository ppa:chris-lea/node.js
     sudo apt-get update
     sudo apt-get install nodejs npm rubygems
     sudo npm install -g grunt-cli
