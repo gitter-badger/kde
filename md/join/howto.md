@@ -3,11 +3,13 @@
 KDE Taiwan 網站程式碼存放在 [github](https://github.com/KDE-Taiwan/kde) 上。
 
 有興趣參與開發的同好，可以先自行 clone 下整個網站，自行在電腦上建立好開發及測試環境，並發信到 [kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw) 申請管理者權限。<br />
-只要你有 [github](http://github.com) 帳號，會使用 git，有任何實做的想法，歡迎你直接 commit 回 github 上。
+只要您有 [github](http://github.com) 帳號，會使用 git，有任何實做的想法，歡迎您直接 commit 回 github 上。
 
 <br />
 ----
 ### KDE 正體中文翻譯
+
+KDE 正體中文翻譯目前由馬哥 <franklin at goodhorse dot idv dot tw> 維護。若您有興趣歡迎聯絡。我們也會持續尋求能讓更多人一起參與的方式。
 
 <br />
 ----
@@ -19,7 +21,7 @@ KDE Taiwan 網站程式碼存放在 [github](https://github.com/KDE-Taiwan/kde) 
   * blog 名稱
   * feed URL
 
-寄到【[kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)】給馬哥，馬哥就會幫你加入了。
+寄到【[kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)】給馬哥，馬哥就會幫您加入了。
 
 <br />
 ----
@@ -30,7 +32,7 @@ KDE Taiwan 網站程式碼存放在 [github](https://github.com/KDE-Taiwan/kde) 
 ### 參與討論
 
 1. 簽到：
-  * 先到【[kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)】寫上你的簡介，介紹自己的專長。
+  * 先到【[kde-tw 論壇](https://groups.google.com/forum/#!forum/kde-tw)】寫上您的簡介，介紹自己的專長。
   * 然後加入 freenode #kde-tw irc 頻道
 <p></p>
 2. 找想法：
