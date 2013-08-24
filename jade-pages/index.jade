@@ -22,9 +22,7 @@ block content
 
             .events(ng-controller="EventCtrl")
                 h2 活動
-                ul
-                    li(ng-repeat="event in events | orderBy:'$index':true")
-                        a(ng-href="{{event.link}}") {{event.title}}
+                iframe(width="240", src="google_act.php", frameborder="0", allowfullscreen)
 
             .logbot
                 h2 即時聊天
