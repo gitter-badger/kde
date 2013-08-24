@@ -38,6 +38,21 @@ angular.module("kde.linux.org.tw", ['firebase']).factory({
   FeaturedCtrl: ['$scope', 'angularFireCollection'].concat(function($scope, angularFireCollection){
   	return null;
   })
+}).filter('less', function() {
+  return function(str, link) {
+    var times = 2, i, pos = 0, tmp, endTag = '</p>', linkTag;
+    linkTag = '<a href="' + link + '">[繼續閱讀......]</a>';
+    for(i = 0; i < times; i += 1, pos = tmp) {
+      tmp = str.indexOf(endTag, pos + 1);
+      if(tmp == -1) {
+        if(pos != 0) {
+          break;
+        }
+        return str + linkTag;
+      }
+    }
+    return str.substring(0, pos + endTag.length) + linkTag;
+  };
 });
 show = function(){
   var prjImg, h;
