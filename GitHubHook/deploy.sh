@@ -19,14 +19,14 @@ fi
 
 cd $TARGET
 echo "cd $TARGET to pull $BRANCH" >> /tmp/deploy.log
-git pull origin $BRANCH
+git pull origin $BRANCH >> /tmp/deploy.log 2>&1
 RES=$?
-echo "git result: $RES" >> /tmp/deploy.log
-$GRUNT deploy
+echo "git result: $RES.  Running $GRUNT deploy" >> /tmp/deploy.log
+$GRUNT deploy >> /tmp/deploy.log 2>&1
 RES=$?
 echo "grunt result: $RES" >> /tmp/deploy.log
 rm -rf ./_site/*
-echo "_site cleaned." >> /tmp/deploy.log
-$JEKYLL build
+echo "_site cleaned. Running $JEKYLL build" >> /tmp/deploy.log
+$JEKYLL build >> /tmp/deploy.log 2>&1
 RES=$?
 echo "jekyll result: $RES" >> /tmp/deploy.log
