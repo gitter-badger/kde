@@ -30,4 +30,4 @@ echo "_site cleaned. Running $JEKYLL build" >> /tmp/deploy.log
 $JEKYLL build >> /tmp/deploy.log 2>&1
 RES=$?
 echo "jekyll result: $RES" >> /tmp/deploy.log
-echo "Done."
+echo "Done. What's the result?" >> /tmp/deploy.log
