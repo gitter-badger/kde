@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export LC_ALL=zh_TW.UTF-8
+
 GRUNT=/usr/local/bin/grunt
 JEKYLL=/usr/local/bin/jekyll
 
