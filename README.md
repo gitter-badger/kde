@@ -1,6 +1,8 @@
 KDE Taiwan website
 ===
 
+[![Join the chat at https://gitter.im/KDE-Taiwan/kde](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KDE-Taiwan/kde?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 第一次執行時
 ------------
 ### 安裝所需套件 ###
